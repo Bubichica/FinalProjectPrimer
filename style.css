@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(232, 221, 246);
+    font-family:'Ysabeau', sans-serif;
+    font-size: 120%;
+}
+
+.wrapper {
+    color: rgb(62, 3, 3);
+    max-width: 1024px;
+    margin-top:0 auto;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+header .brand {
+    color: #666;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.7em;
+    padding: 1em;
+}
+
+header .brand span{
+    color: #2c0aa8;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.2em;
+    padding: 2em;
+}
+
+#health {
+    min-height: 50px;
+    background:none center no-repeat;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    clear: both;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+
+#blogContent {
+    width: 70%;
+}
+
+aside nav {
+    background-color: rgb(230, 159, 249);
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+aside nav h3{
+    background-color: rgb(241, 113, 183);
+    color:rgb(62, 3, 3);
+    padding: 1em;
+    margin-top: 0;
+}
+
+a {
+    color: #666;
+   
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a {
+    padding: 0.8em 0;
+    display: block;
+}
+
+article {
+    margin-bottom: 3.7em;
+    margin-top: 3.7em;
+}
+
+article h2 {
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+}
+
+article p {
+    margin-top: 0.8em;
+    color: #333;
+    padding: 0;
+}
